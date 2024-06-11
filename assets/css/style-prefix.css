@@ -296,7 +296,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   position: relative;
   max-width: 350px;
   margin: 20px;
-  background: var(--white);
+  background: rgb(68, 77, 62);
   -webkit-border-radius: var(--border-radius-md);
           border-radius: var(--border-radius-md);
   overflow: hidden;
@@ -1349,6 +1349,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   -webkit-border-radius: var(--border-radius-md);
           border-radius: var(--border-radius-md);
   scroll-snap-align: start;
+  background-color:rgb(68, 77, 62) ;
 }
 
 .product-featured .showcase-img {
